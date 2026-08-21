@@ -1,0 +1,27 @@
+{
+  "name": "coeex-os",
+  "version": "1.1.1",
+  "description": "COEEx OS v1.1 \u2014 Operational Excellence cognitive operating system. 167 skills (principles, frameworks, analysis, wastes, documentation, diagnostics, domain, tools, meta), 12 commands, knowledge graph (167 nodes, 124 edges), executable scripts, references-pattern progressive disclosure, MCP orchestration. Cowork primary, Claude Code compatible.",
+  "author": {
+    "name": "Calo",
+    "email": "calolategan@gmail.com"
+  },
+  "keywords": [
+    "operational-excellence",
+    "lean",
+    "six-sigma",
+    "theory-of-constraints",
+    "process-improvement",
+    "systems-thinking",
+    "construction",
+    "logistics",
+    "warehousing",
+    "manufacturing",
+    "diagnostics",
+    "kpi",
+    "value-stream-mapping",
+    "kaizen",
+    "root-cause-analysis"
+  ],
+  "license": "MIT"
+}

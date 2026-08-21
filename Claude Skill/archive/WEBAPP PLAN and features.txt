@@ -1,0 +1,27 @@
+none destructible engine for each page/ code each interacts by inputting data rather than integrating via code so that when adding a new page or feature it doesn't affect each page from crashing/ breaking:
+ 
+quote engine
+fleet dashboard engine
+purchase order engine
+Water Delivery engine
+maintenance engine
+Site services workshop stock engine
+delivery note engine
+return note engine
+catalog engine
+presentation engine
+process engine 
+
+Process engine details:
+
+process 1: quote - update fleet dashboard - notification to yard - maintenance yes or no - confirm plant no - quote with plant nos - pictures for those plant nos - full catalog pdf - presentation with standard formatting (plant no images get input to presentation) - send quote to client with catalog and presentation based on quoted items - quote reversions - resend same process with updated quote rev 1 plant nos - repeat until no revisions needed
+
+Process 2: Quote confirmation and sign off - receive quote back with customer signature - Prepare process 3
+
+Process 3: Send quote and purchase order - receive signed purchase order by client - change fleetboard status to booked with start dates and end dates, project name, job number, attach all docs to fleetboards row/ column for all items in that quote for quick reference or to edit and add more items - confirm maintenance status - makes delivery notes - delivery note signed and stock sent out - on return date - return note filed with full projects plant nos - return note notification to sign - return note signed - maintenance/ QC check notification - set fleet dashboard status to available
+
+catalog engine: 
+When first quote is generated 
+
+presentation engine: 
+

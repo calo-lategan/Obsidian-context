@@ -1,0 +1,49 @@
+{
+  "hooks": {
+
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '[Ω-AGI ACTIVE] onstart-onthinking is loaded and running. Apply Omega-AGI-v4 NOW: set mode vector Θ, allocate compute budget E_tc, enforce token economy laws. Zero filler. Zero preamble. Govern this entire response before writing a single word.'"
+          }
+        ]
+      }
+    ],
+
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '[Ω-AGI SESSION INIT] onstart-onthinking skill is active for this entire session. Omega-AGI-v4 cognitive OS is running. All responses this session must apply: Chain-of-Draft reasoning, token economy laws, parallel tool execution, zero conversational filler, and full mode vector governance. This is permanent for the session — not per-message, not optional.'"
+          }
+        ]
+      }
+    ],
+
+    "PreToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '[Ω-AGI] onstart-onthinking active. Apply Omega-AGI-v4 token economy and parallel execution laws to this tool call.'"
+          }
+        ]
+      }
+    ],
+
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '[Ω-AGI POST-COMPACT REMINDER] Context was compacted. onstart-onthinking skill remains active. Re-apply Omega-AGI-v4 protocols: mode vector Θ, compute budget E_tc, token economy, Chain-of-Draft. Do not lose cognitive OS state across compaction.'"
+          }
+        ]
+      }
+    ]
+
+  }
+}

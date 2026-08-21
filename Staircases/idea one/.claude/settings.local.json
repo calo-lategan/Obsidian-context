@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la \"C:/Users/USER/Desktop/Staircases/idea one\" 2>/dev/null; echo \"---PARENT---\"; ls -la \"C:/Users/USER/Desktop/Staircases\" 2>/dev/null)",
+      "Bash(where blender *)",
+      "Read(//c/Program Files/Blender Foundation/**)",
+      "Read(//c/Program Files \\(x86\\)/Steam/steamapps/common/**)",
+      "Bash(\"C:/Program Files/Blender Foundation/Blender 5.1/blender.exe\" --version)"
+    ]
+  }
+}

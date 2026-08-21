@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enterprise Job Lookup</title>
+  <!-- Tailwind CSS for robust, enterprise-grade UI scaling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons for Visual Depth -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #f1f5f9; }
+    ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    .animate-fade-in { animation: fadeIn 0.2s ease-out; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+
+    /* Print Optimization */
+    @media print {
+      header, #autocompleteDropdown, #emptyState, .no-print { 
+        display: none !important; 
+      }
+      body { 
+        background: white !important; 
+        height: auto !important; 
+        overflow: visible !important; 
+      }
+      main { 
+        padding: 0 !important; 
+        overflow: visible !important; 
+        display: block !important;
+      }
+      #resultsContainer { 
+        display: block !important; 
+        position: static !important;
+      }
+      .bg-slate-50 { background-color: white !important; }
+      .shadow-sm { box-shadow: none !important; }
+      .rounded-xl { border-radius: 0 !important; border: 1px solid #e2e8f0 !important; }
+      .bg-white { background-color: white !important; }
+      .bg-indigo-50 { background-color: #f8fafc !important; border-bottom: 1px solid #e2e8f0 !important; }
+      .text-indigo-900 { color: #0f172a !important; }
+      .text-indigo-600 { color: #4f46e5 !important; }
+      table { border-collapse: collapse !important; width: 100% !important; }
+      th, td { border: 1px solid #e2e8f0 !important; }
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased h-screen flex flex-col overflow-hidden relative">
+
+  <!-- Header Section -->
+  <header class="bg-white border-b border-slate-200 px-6 py-5 shadow-sm shrink-0 z-30">
+    <div class="flex items-center gap-3 mb-4">
+      <i data-lucide="server-cog" class="text-indigo-600 w-6 h-6"></i>
+      <h1 class="text-xl font-bold text-slate-900 tracking-tight">Job Routing Database</h1>
+    </div>
+    
+    <!-- V6 Instant Autocomplete Search Form -->
+    <div class="relative flex-1">
+      <i data-lucide="search" class="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 w-5 h-5"></i>
+      <input type="text" id="searchInput"
+        class="w-full bg-slate-100 border border-slate-300 rounded-lg pl-10 pr-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:bg-white transition-all"
+        placeholder="Type a Job Number, Client, or Project... (e.g. 60626)" autocomplete="off">
+      
+      <!-- Autocomplete Dropdown Menu -->
+      <ul id="autocompleteDropdown" class="hidden absolute top-full left-0 mt-1 w-full bg-white border border-slate-200 rounded-lg shadow-lg max-h-64 overflow-y-auto z-50 divide-y divide-slate-100">
+      </ul>
+    </div>
+  </header>
+
+  <!-- Content Section -->
+  <main class="flex-1 overflow-y-auto p-6 relative z-10">
+    
+    <!-- Results Container -->
+    <div id="resultsContainer" class="hidden">
+      <!-- Dynamic Content Injected Here -->
+    </div>
+
+    <!-- Empty State -->
+    <div id="emptyState" class="h-full flex flex-col items-center justify-center text-center opacity-80">
+      <i data-lucide="text-cursor-input" class="w-16 h-16 text-slate-300 mb-4"></i>
+      <h3 class="text-lg font-semibold text-slate-700">Ready for Query</h3>
+      <p class="text-sm text-slate-500 max-w-md mt-2">Start typing above. The system instantly queries the pre-loaded Calendar matrix cache.</p>
+    </div>
+  </main>
+
+  <script>
+    // ==========================================
+    // INSTANT DATA HYDRATION (ZERO LATENCY)
+    // ==========================================
+    // The database is injected directly from Apps Script Cache before the UI even renders.
+    const localDatabase = <?!= dbPayload || "{}" ?>;
+    const jobKeys = Object.keys(localDatabase);
+
+    // ==========================================
+    // UI LOGIC & AUTOCOMPLETE
+    // ==========================================
+    document.addEventListener('DOMContentLoaded', () => {
+      lucide.createIcons();
+      document.getElementById('searchInput').focus();
+    });
+
+    const searchInput = document.getElementById('searchInput');
+    const dropdown = document.getElementById('autocompleteDropdown');
+    const emptyState = document.getElementById('emptyState');
+    const resultsContainer = document.getElementById('resultsContainer');
+
+    searchInput.addEventListener('input', (e) => {
+      const query = e.target.value.toLowerCase().trim();
+      dropdown.innerHTML = '';
+      
+      if (!query) {
+        dropdown.classList.add('hidden');
+        resultsContainer.classList.add('hidden');
+        emptyState.classList.remove('hidden');
+        return;
+      }
+
+      // Filter matches natively in RAM
+      const matches = jobKeys.filter(k => k.toLowerCase().includes(query)).slice(0, 50);
+
+      if (matches.length > 0) {
+        matches.forEach(match => {
+          const li = document.createElement('li');
+          li.className = 'px-4 py-3 hover:bg-indigo-50 cursor-pointer transition-colors flex items-start gap-3';
+          
+          // Highlight the matching substring
+          const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+          const highlightedText = match.replace(regex, '<span class="font-bold text-indigo-600 bg-indigo-100/50 rounded px-0.5">$1</span>');
+          
+          li.innerHTML = `<i data-lucide="briefcase" class="w-4 h-4 text-slate-400 mt-0.5 shrink-0"></i><span class="text-sm text-slate-700 font-medium leading-snug">${highlightedText}</span>`;
+          
+          // Selection Event
+          li.addEventListener('click', () => {
+             searchInput.value = match;
+             dropdown.classList.add('hidden');
+             renderResults(match);
+          });
+          
+          dropdown.appendChild(li);
+        });
+        lucide.createIcons();
+        dropdown.classList.remove('hidden');
+      } else {
+        dropdown.innerHTML = `<li class="px-4 py-3 text-sm text-slate-500 italic text-center">No matches found in pre-loaded cache.</li>`;
+        dropdown.classList.remove('hidden');
+      }
+    });
+
+    // Hide dropdown when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!searchInput.contains(e.target) && !dropdown.contains(e.target)) {
+        dropdown.classList.add('hidden');
+      }
+    });
+
+    // ==========================================
+    // RENDER RESULTS ENGINE
+    // ==========================================
+    function getStatusBadge(status) {
+      if (status === 'QUOTE') return `<span class="px-2 py-1 bg-fuchsia-100 text-fuchsia-700 rounded text-xs font-bold border border-fuchsia-200">QUOTE</span>`;
+      if (status === 'BOOKED / ON HIRE') return `<span class="px-2 py-1 bg-cyan-100 text-cyan-800 rounded text-xs font-bold border border-cyan-200">BOOKED / ON HIRE</span>`;
+      if (status === 'SERVICE') return `<span class="px-2 py-1 bg-red-100 text-red-700 rounded text-xs font-bold border border-red-200">SERVICE</span>`;
+      if (status === 'SOLD TO KSA') return `<span class="px-2 py-1 bg-orange-100 text-orange-700 rounded text-xs font-bold border border-orange-200">SOLD TO KSA</span>`;
+      if (status === 'IN KSA') return `<span class="px-2 py-1 bg-red-800 text-white rounded text-xs font-bold border border-red-900">IN KSA</span>`;
+      if (status === 'LOGISTICS') return `<span class="px-2 py-1 bg-blue-100 text-blue-700 rounded text-xs font-bold border border-blue-200">LOGISTICS</span>`;
+      if (status === 'PENDING BATCH') return `<span class="px-2 py-1 bg-yellow-100 text-yellow-800 rounded text-xs font-bold border border-yellow-300">PENDING BATCH</span>`;
+      
+      // V7 Addition: Expose unknown hex codes so you can fix them
+      if (status && status.startsWith('UNKNOWN')) return `<span class="px-2 py-1 bg-slate-200 text-slate-800 rounded text-xs font-bold border border-slate-400">${status}</span>`;
+
+      return `<span class="px-2 py-1 bg-slate-100 text-slate-700 rounded text-xs font-bold border border-slate-200">${status || 'ACTIVE'}</span>`;
+    }
+
+    function renderResults(selectedJob) {
+      emptyState.classList.add('hidden');
+      resultsContainer.classList.remove('hidden');
+
+      const plants = localDatabase[selectedJob] || [];
+
+      let htmlFragment = `
+        <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden mb-6 animate-fade-in">
+          <div class="bg-indigo-50 border-b border-indigo-100 px-5 py-4 flex justify-between items-center gap-4">
+            <h2 class="text-sm sm:text-base font-bold text-indigo-900 flex items-center gap-2 flex-1">
+              <i data-lucide="clipboard-check" class="w-5 h-5 text-indigo-600 shrink-0"></i>
+              <span class="break-words">${selectedJob}</span>
+            </h2>
+            <div class="flex items-center gap-2 shrink-0">
+              <button onclick="window.print()" class="no-print flex items-center gap-2 px-3 py-1.5 bg-white border border-slate-300 text-slate-700 rounded-lg text-xs font-bold hover:bg-slate-50 hover:border-slate-400 transition-all shadow-sm">
+                <i data-lucide="printer" class="w-3.5 h-3.5"></i>
+                Print/PDF
+              </button>
+              <span class="text-xs font-bold px-3 py-1.5 bg-indigo-600 text-white rounded-lg shadow-sm">
+                ${plants.length} Items
+              </span>
+            </div>
+          </div>
+          <div class="overflow-x-auto">
+            <table class="w-full text-left border-collapse">
+              <thead>
+                <tr class="bg-slate-50 text-slate-500 text-[10px] sm:text-xs uppercase tracking-wider">
+                  <th class="px-5 py-3 font-semibold border-b border-slate-200">Plant No</th>
+                  <th class="px-5 py-3 font-semibold border-b border-slate-200">Description</th>
+                  <th class="px-5 py-3 font-semibold border-b border-slate-200">Status</th>
+                  <th class="px-5 py-3 font-semibold border-b border-slate-200">Start Date</th>
+                  <th class="px-5 py-3 font-semibold border-b border-slate-200">End Date</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-100 text-sm">
+      `;
+
+      plants.forEach(item => {
+        htmlFragment += `
+                <tr class="hover:bg-slate-50 transition-colors">
+                  <td class="px-5 py-3 font-mono font-bold text-slate-800 whitespace-nowrap">${item.plant}</td>
+                  <td class="px-5 py-3 text-slate-600 font-medium min-w-[200px]">${item.desc}</td>
+                  <td class="px-5 py-3 whitespace-nowrap">${getStatusBadge(item.status)}</td>
+                  <td class="px-5 py-3 font-mono text-emerald-600 font-semibold text-xs whitespace-nowrap">${item.start || '-'}</td>
+                  <td class="px-5 py-3 font-mono text-rose-600 font-semibold text-xs whitespace-nowrap">${item.end || '-'}</td>
+                </tr>
+        `;
+      });
+
+      htmlFragment += `
+              </tbody>
+            </table>
+          </div>
+        </div>
+      `;
+
+      resultsContainer.innerHTML = htmlFragment;
+      lucide.createIcons();
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,215 @@
+=== Text Layout for 0.5mm.pdf ===
+
+--- Page 1 ---
+Text: '扬子江新型材料（苏州）有限公司' | Bbox: [45.6, 63.71, 299.4, 80.66] | Font: »ªÎÄÐÐ¿¬ | Size: 16.92 | Color: 0
+Text: '产品质量证明书' | Bbox: [301.97, 50.21, 538.85, 84.05] | Font: »ªÎÄÐÂÎº | Size: 33.84 | Color: 0
+Text: 'YZJ/QP03-20' | Bbox: [486.19, 127.14, 544.02, 138.57] | Font: Times New Roman | Size: 10.32 | Color: 0
+Text: 'Coating' | Bbox: [450.65, 288.85, 477.03, 298.14] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'thickness' | Bbox: [448.25, 299.77, 479.23, 309.06] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '60°' | Bbox: [500.71, 294.25, 513.31, 303.54] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '(' | Bbox: [456.79, 313.93, 459.59, 323.22] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'μ' | Bbox: [459.55, 313.81, 464.39, 323.17] | Font: Arial | Size: 8.4 | Color: 0
+Text: ')' | Bbox: [467.95, 313.93, 470.75, 323.22] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'glossiness' | Bbox: [489.91, 313.69, 523.31, 322.98] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '1' | Bbox: [50.4, 329.58, 55.32, 340.48] | Font: Times New Roman | Size: 9.84 | Color: 0
+Text: 'Z23DN50027391102' | Bbox: [68.88, 330.15, 147.04, 339.51] | Font: Arial | Size: 8.4 | Color: 0
+Text: '4.300' | Bbox: [164.06, 330.15, 185.03, 339.51] | Font: Arial | Size: 8.4 | Color: 0
+Text: '913' | Bbox: [208.1, 330.15, 222.13, 339.51] | Font: Arial | Size: 8.4 | Color: 0
+Text: '4' | Bbox: [253.94, 330.27, 258.14, 339.56] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '17' | Bbox: [293.45, 330.27, 301.85, 339.56] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '1' | Bbox: [337.01, 330.27, 341.21, 339.56] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '13' | Bbox: [376.49, 330.27, 384.89, 339.56] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '11' | Bbox: [418.01, 330.27, 426.41, 339.56] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '20' | Bbox: [459.55, 330.27, 467.95, 339.56] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '32' | Bbox: [502.39, 330.27, 510.79, 339.56] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'H' | Bbox: [549.31, 330.27, 555.37, 339.56] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '2T' | Bbox: [592.87, 330.27, 602.2, 339.56] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'OK' | Bbox: [637.54, 330.27, 649.72, 339.56] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '9' | Bbox: [689.86, 330.27, 694.06, 339.56] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '>100' | Bbox: [726.82, 330.27, 744.1, 339.56] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '2' | Bbox: [50.4, 346.5, 55.32, 357.4] | Font: Times New Roman | Size: 9.84 | Color: 0
+Text: 'Z23DN50021381102' | Bbox: [68.88, 347.07, 147.04, 356.43] | Font: Arial | Size: 8.4 | Color: 0
+Text: '3.990' | Bbox: [164.06, 347.07, 185.03, 356.43] | Font: Arial | Size: 8.4 | Color: 0
+Text: '847' | Bbox: [208.1, 347.07, 222.13, 356.43] | Font: Arial | Size: 8.4 | Color: 0
+Text: '4' | Bbox: [253.94, 347.19, 258.14, 356.48] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '17' | Bbox: [293.45, 347.19, 301.85, 356.48] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '1' | Bbox: [337.01, 347.19, 341.21, 356.48] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '13' | Bbox: [376.49, 347.19, 384.89, 356.48] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '11' | Bbox: [418.01, 347.19, 426.41, 356.48] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '20' | Bbox: [459.55, 347.19, 467.95, 356.48] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '33' | Bbox: [502.39, 347.19, 510.79, 356.48] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'H' | Bbox: [549.31, 347.19, 555.37, 356.48] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '2T' | Bbox: [592.87, 347.19, 602.2, 356.48] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'OK' | Bbox: [637.54, 347.19, 649.72, 356.48] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '9' | Bbox: [689.86, 347.19, 694.06, 356.48] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '>100' | Bbox: [726.82, 347.19, 744.1, 356.48] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '3' | Bbox: [50.4, 363.42, 55.32, 374.32] | Font: Times New Roman | Size: 9.84 | Color: 0
+Text: 'Z23DN50020851103' | Bbox: [68.88, 363.99, 147.04, 373.35] | Font: Arial | Size: 8.4 | Color: 0
+Text: '4.390' | Bbox: [164.06, 363.99, 185.03, 373.35] | Font: Arial | Size: 8.4 | Color: 0
+Text: '932' | Bbox: [208.1, 363.99, 222.13, 373.35] | Font: Arial | Size: 8.4 | Color: 0
+Text: '4' | Bbox: [253.94, 364.11, 258.14, 373.4] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '17' | Bbox: [293.45, 364.11, 301.85, 373.4] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '1' | Bbox: [337.01, 364.11, 341.21, 373.4] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '13' | Bbox: [376.49, 364.11, 384.89, 373.4] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '11' | Bbox: [418.01, 364.11, 426.41, 373.4] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '20' | Bbox: [459.55, 364.11, 467.95, 373.4] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '31' | Bbox: [502.39, 364.11, 510.79, 373.4] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'H' | Bbox: [549.31, 364.11, 555.37, 373.4] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '2T' | Bbox: [592.87, 364.11, 602.2, 373.4] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'OK' | Bbox: [637.54, 364.11, 649.72, 373.4] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '9' | Bbox: [689.86, 364.11, 694.06, 373.4] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '>100' | Bbox: [726.82, 364.11, 744.1, 373.4] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '4' | Bbox: [50.4, 380.34, 55.32, 391.24] | Font: Times New Roman | Size: 9.84 | Color: 0
+Text: 'Z23DN50018601103' | Bbox: [68.88, 380.91, 147.04, 390.27] | Font: Arial | Size: 8.4 | Color: 0
+Text: '3.920' | Bbox: [164.06, 380.91, 185.03, 390.27] | Font: Arial | Size: 8.4 | Color: 0
+Text: '832' | Bbox: [208.1, 380.91, 222.13, 390.27] | Font: Arial | Size: 8.4 | Color: 0
+Text: '4' | Bbox: [253.94, 381.03, 258.14, 390.32] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '17' | Bbox: [293.45, 381.03, 301.85, 390.32] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '1' | Bbox: [337.01, 381.03, 341.21, 390.32] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '13' | Bbox: [376.49, 381.03, 384.89, 390.32] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '11' | Bbox: [418.01, 381.03, 426.41, 390.32] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '20' | Bbox: [459.55, 381.03, 467.95, 390.32] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '31' | Bbox: [502.39, 381.03, 510.79, 390.32] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'H' | Bbox: [549.31, 381.03, 555.37, 390.32] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '2T' | Bbox: [592.87, 381.03, 602.2, 390.32] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'OK' | Bbox: [637.54, 381.03, 649.72, 390.32] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '9' | Bbox: [689.86, 381.03, 694.06, 390.32] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '>100' | Bbox: [726.82, 381.03, 744.1, 390.32] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '5' | Bbox: [50.4, 397.26, 55.32, 408.16] | Font: Times New Roman | Size: 9.84 | Color: 0
+Text: 'Z23DN50016731101' | Bbox: [68.88, 397.83, 147.04, 407.19] | Font: Arial | Size: 8.4 | Color: 0
+Text: '4.200' | Bbox: [164.06, 397.83, 185.03, 407.19] | Font: Arial | Size: 8.4 | Color: 0
+Text: '892' | Bbox: [208.1, 397.83, 222.13, 407.19] | Font: Arial | Size: 8.4 | Color: 0
+Text: '4' | Bbox: [253.94, 397.95, 258.14, 407.24] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '17' | Bbox: [293.45, 397.95, 301.85, 407.24] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '1' | Bbox: [337.01, 397.95, 341.21, 407.24] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '13' | Bbox: [376.49, 397.95, 384.89, 407.24] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '11' | Bbox: [418.01, 397.95, 426.41, 407.24] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '20' | Bbox: [459.55, 397.95, 467.95, 407.24] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '32' | Bbox: [502.39, 397.95, 510.79, 407.24] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'H' | Bbox: [549.31, 397.95, 555.37, 407.24] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '2T' | Bbox: [592.87, 397.95, 602.2, 407.24] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'OK' | Bbox: [637.54, 397.95, 649.72, 407.24] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '9' | Bbox: [689.86, 397.95, 694.06, 407.24] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '>100' | Bbox: [726.82, 397.95, 744.1, 407.24] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '6' | Bbox: [50.4, 414.18, 55.32, 425.08] | Font: Times New Roman | Size: 9.84 | Color: 0
+Text: 'Z23DN50018841103' | Bbox: [68.88, 414.75, 147.04, 424.11] | Font: Arial | Size: 8.4 | Color: 0
+Text: '3.980' | Bbox: [164.06, 414.75, 185.03, 424.11] | Font: Arial | Size: 8.4 | Color: 0
+Text: '845' | Bbox: [208.1, 414.75, 222.13, 424.11] | Font: Arial | Size: 8.4 | Color: 0
+Text: '4' | Bbox: [253.94, 414.87, 258.14, 424.16] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '17' | Bbox: [293.45, 414.87, 301.85, 424.16] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '1' | Bbox: [337.01, 414.87, 341.21, 424.16] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '13' | Bbox: [376.49, 414.87, 384.89, 424.16] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '11' | Bbox: [418.01, 414.87, 426.41, 424.16] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '20' | Bbox: [459.55, 414.87, 467.95, 424.16] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '31' | Bbox: [502.39, 414.87, 510.79, 424.16] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'H' | Bbox: [549.31, 414.87, 555.37, 424.16] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '2T' | Bbox: [592.87, 414.87, 602.2, 424.16] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'OK' | Bbox: [637.54, 414.87, 649.72, 424.16] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '9' | Bbox: [689.86, 414.87, 694.06, 424.16] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '>100' | Bbox: [726.82, 414.87, 744.1, 424.16] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '7' | Bbox: [50.4, 431.1, 55.32, 442.0] | Font: Times New Roman | Size: 9.84 | Color: 0
+Text: 'Z23DN50018521101' | Bbox: [68.88, 431.67, 147.04, 441.03] | Font: Arial | Size: 8.4 | Color: 0
+Text: '4.450' | Bbox: [164.06, 431.67, 185.03, 441.03] | Font: Arial | Size: 8.4 | Color: 0
+Text: '945' | Bbox: [208.1, 431.67, 222.13, 441.03] | Font: Arial | Size: 8.4 | Color: 0
+Text: '4' | Bbox: [253.94, 431.79, 258.14, 441.08] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '17' | Bbox: [293.45, 431.79, 301.85, 441.08] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '1' | Bbox: [337.01, 431.79, 341.21, 441.08] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '13' | Bbox: [376.49, 431.79, 384.89, 441.08] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '11' | Bbox: [418.01, 431.79, 426.41, 441.08] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '20' | Bbox: [459.55, 431.79, 467.95, 441.08] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '30' | Bbox: [502.39, 431.79, 510.79, 441.08] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'H' | Bbox: [549.31, 431.79, 555.37, 441.08] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '2T' | Bbox: [592.87, 431.79, 602.2, 441.08] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'OK' | Bbox: [637.54, 431.79, 649.72, 441.08] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '9' | Bbox: [689.86, 431.79, 694.06, 441.08] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '>100' | Bbox: [726.82, 431.79, 744.1, 441.08] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '8' | Bbox: [50.4, 448.05, 55.32, 458.95] | Font: Times New Roman | Size: 9.84 | Color: 0
+Text: 'Z23DN50030031102' | Bbox: [68.88, 448.62, 147.04, 457.98] | Font: Arial | Size: 8.4 | Color: 0
+Text: '3.700' | Bbox: [164.06, 448.62, 185.03, 457.98] | Font: Arial | Size: 8.4 | Color: 0
+Text: '786' | Bbox: [208.1, 448.62, 222.13, 457.98] | Font: Arial | Size: 8.4 | Color: 0
+Text: '4' | Bbox: [253.94, 448.74, 258.14, 458.03] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '17' | Bbox: [293.45, 448.74, 301.85, 458.03] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '1' | Bbox: [337.01, 448.74, 341.21, 458.03] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '13' | Bbox: [376.49, 448.74, 384.89, 458.03] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '11' | Bbox: [418.01, 448.74, 426.41, 458.03] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '20' | Bbox: [459.55, 448.74, 467.95, 458.03] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '32' | Bbox: [502.39, 448.74, 510.79, 458.03] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'H' | Bbox: [549.31, 448.74, 555.37, 458.03] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '2T' | Bbox: [592.87, 448.74, 602.2, 458.03] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'OK' | Bbox: [637.54, 448.74, 649.72, 458.03] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '9' | Bbox: [689.86, 448.74, 694.06, 458.03] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '>100' | Bbox: [726.82, 448.74, 744.1, 458.03] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'Impact test' | Bbox: [673.66, 296.53, 710.3, 305.82] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '(J)' | Bbox: [687.58, 307.45, 696.49, 316.74] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'MEK' | Bbox: [726.22, 301.93, 744.88, 311.22] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'This is hereby to certify that these products are produced and inspected in accordance with the foregoing requirements' | Bbox: [44.76, 535.05, 509.49, 545.94] | Font: Times New Roman | Size: 9.84 | Color: 0
+Text: 'Confirm' | Bbox: [557.11, 535.05, 590.45, 545.94] | Font: Times New Roman | Size: 9.84 | Color: 0
+Text: 'C' | Bbox: [242.42, 302.77, 248.02, 312.06] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '×' | Bbox: [248.06, 303.03, 256.46, 311.43] | Font: ËÎÌå | Size: 8.4 | Color: 0
+Text: '10' | Bbox: [256.46, 302.77, 264.86, 312.06] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '-2' | Bbox: [264.86, 301.02, 269.6, 307.27] | Font: Times New Roman | Size: 5.64 | Color: 0
+Text: 'Mn' | Bbox: [280.94, 302.77, 292.58, 312.06] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '×' | Bbox: [292.61, 303.03, 301.01, 311.43] | Font: ËÎÌå | Size: 8.4 | Color: 0
+Text: '10' | Bbox: [301.01, 302.77, 309.41, 312.06] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '-2' | Bbox: [309.41, 301.02, 314.15, 307.27] | Font: Times New Roman | Size: 5.64 | Color: 0
+Text: 'Si' | Bbox: [324.17, 302.53, 331.19, 311.82] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '×' | Bbox: [331.13, 302.79, 339.53, 311.19] | Font: ËÎÌå | Size: 8.4 | Color: 0
+Text: '10' | Bbox: [339.53, 301.24, 349.37, 312.14] | Font: Times New Roman | Size: 9.84 | Color: 0
+Text: '-2' | Bbox: [349.37, 300.78, 354.11, 307.03] | Font: Times New Roman | Size: 5.64 | Color: 0
+Text: 'P' | Bbox: [366.77, 302.53, 371.44, 311.82] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '×' | Bbox: [371.45, 302.79, 379.85, 311.19] | Font: ËÎÌå | Size: 8.4 | Color: 0
+Text: '10' | Bbox: [379.85, 301.24, 389.69, 312.14] | Font: Times New Roman | Size: 9.84 | Color: 0
+Text: '-3' | Bbox: [389.69, 300.78, 394.43, 307.03] | Font: Times New Roman | Size: 5.64 | Color: 0
+Text: 'S' | Bbox: [408.29, 302.53, 412.96, 311.82] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '×' | Bbox: [412.97, 302.79, 421.37, 311.19] | Font: ËÎÌå | Size: 8.4 | Color: 0
+Text: '10' | Bbox: [421.37, 301.24, 431.21, 312.14] | Font: Times New Roman | Size: 9.84 | Color: 0
+Text: '-3' | Bbox: [431.21, 300.78, 435.95, 307.03] | Font: Times New Roman | Size: 5.64 | Color: 0
+Text: 'Pencil' | Bbox: [542.11, 296.53, 562.93, 305.82] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'hardness' | Bbox: [537.79, 307.45, 566.98, 316.74] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'T  bend' | Bbox: [584.71, 301.93, 610.25, 311.22] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'Adhesion test' | Bbox: [620.83, 301.93, 666.36, 311.22] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '客户名称' | Bbox: [78.6, 151.29, 117.96, 161.13] | Font: ËÎÌå | Size: 9.84 | Color: 0
+Text: 'SOLD TO' | Bbox: [77.64, 163.69, 118.94, 174.59] | Font: Times New Roman | Size: 9.84 | Color: 0
+Text: '订单号码' | Bbox: [78.6, 189.21, 117.96, 199.05] | Font: ËÎÌå | Size: 9.84 | Color: 0
+Text: 'ORDER NO' | Bbox: [73.2, 201.61, 123.28, 212.51] | Font: Times New Roman | Size: 9.84 | Color: 0
+Text: '规' | Bbox: [87.12, 227.4, 96.96, 237.24] | Font: ËÎÌå | Size: 9.84 | Color: 0
+Text: '格' | Bbox: [99.48, 227.4, 109.32, 237.24] | Font: ËÎÌå | Size: 9.84 | Color: 0
+Text: 'SIZE' | Bbox: [87.84, 239.8, 108.61, 250.7] | Font: Times New Roman | Size: 9.84 | Color: 0
+Text: '  INSPECTION CERTIFICATE' | Bbox: [336.17, 89.22, 469.84, 100.65] | Font: Times New Roman | Size: 10.32 | Color: 0
+Text: 'NET' | Bbox: [166.1, 296.53, 182.5, 305.82] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'WEIGHT' | Bbox: [157.94, 307.45, 190.54, 316.74] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'SUZHOU YANGTSE' | Bbox: [44.88, 89.93, 145.96, 102.42] | Font: Times New Roman | Size: 11.28 | Color: 0
+Text: '             NEW MATERIALS CO., LTD' | Bbox: [44.88, 104.93, 224.13, 117.42] | Font: Times New Roman | Size: 11.28 | Color: 0
+Text: '序' | Bbox: [47.88, 283.44, 57.72, 293.28] | Font: ËÎÌå | Size: 9.84 | Color: 0
+Text: '号' | Bbox: [47.88, 295.8, 57.72, 305.64] | Font: ËÎÌå | Size: 9.84 | Color: 0
+Text: '净重' | Bbox: [158.18, 269.64, 177.86, 279.48] | Font: ËÎÌå | Size: 9.84 | Color: 0
+Text: '(T)' | Bbox: [177.86, 269.32, 190.39, 280.22] | Font: Times New Roman | Size: 9.84 | Color: 0
+Text: '长度' | Bbox: [198.26, 269.28, 217.94, 279.12] | Font: ËÎÌå | Size: 9.84 | Color: 0
+Text: '(m)' | Bbox: [217.94, 268.96, 232.01, 279.86] | Font: Times New Roman | Size: 9.84 | Color: 0
+Text: 'LENGTH' | Bbox: [198.5, 301.93, 231.67, 311.22] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '钢卷编号' | Bbox: [88.44, 282.48, 127.8, 292.32] | Font: ËÎÌå | Size: 9.84 | Color: 0
+Text: 'COIL NO.' | Bbox: [87.0, 294.88, 129.05, 305.78] | Font: Times New Roman | Size: 9.84 | Color: 0
+Text: '化学成份' | Bbox: [256.82, 269.76, 296.18, 279.6] | Font: ËÎÌå | Size: 9.84 | Color: 0
+Text: 'CHEMICAL COMPOSITION WT%' | Bbox: [296.21, 270.73, 421.31, 280.02] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: '涂层性能指标' | Bbox: [527.11, 269.76, 586.15, 279.6] | Font: ËÎÌå | Size: 9.84 | Color: 0
+Text: 'COATING  PROPERTY' | Bbox: [586.15, 270.73, 670.86, 280.02] | Font: Times New Roman | Size: 8.4 | Color: 0
+Text: 'PRIME QUALITY PREPAINTED GALVANIZED STEEL' | Bbox: [454.87, 149.57, 743.11, 162.06] | Font: Times New Roman,Bold | Size: 11.28 | Color: 0
+Text: 'COILS' | Bbox: [581.59, 163.85, 616.76, 176.34] | Font: Times New Roman,Bold | Size: 11.28 | Color: 0
+Text: 'SGCC' | Bbox: [581.95, 193.22, 616.32, 207.83] | Font: Times New Roman | Size: 13.2 | Color: 0
+Text: '江南白' | Bbox: [474.67, 232.07, 514.27, 245.27] | Font: ËÎÌå | Size: 13.2 | Color: 0
+Text: '/' | Bbox: [514.27, 231.65, 517.94, 246.26] | Font: Times New Roman | Size: 13.2 | Color: 0
+Text: '灰白' | Bbox: [517.99, 232.07, 544.39, 245.27] | Font: ËÎÌå | Size: 13.2 | Color: 0
+Text: '生产日期' | Bbox: [602.47, 227.16, 641.83, 237.0] | Font: ËÎÌå | Size: 9.84 | Color: 0
+Text: 'DATE' | Bbox: [609.07, 239.56, 635.25, 250.46] | Font: Times New Roman | Size: 9.84 | Color: 0
+Text: '2023.08' | Bbox: [690.22, 231.17, 733.17, 245.78] | Font: Times New Roman | Size: 13.2 | Color: 0
+Text: '昇迅活动房（上海）有限公司' | Bbox: [162.62, 157.61, 309.26, 168.89] | Font: ËÎÌå | Size: 11.28 | Color: 0
+Text: '颜色（面' | Bbox: [349.73, 227.4, 389.09, 237.24] | Font: ËÎÌå | Size: 9.84 | Color: 0
+Text: '/' | Bbox: [389.09, 227.08, 391.83, 237.98] | Font: Times New Roman | Size: 9.84 | Color: 0
+Text: '背）' | Bbox: [391.85, 227.4, 411.53, 237.24] | Font: ËÎÌå | Size: 9.84 | Color: 0
+Text: 'COLOR' | Bbox: [364.01, 239.8, 397.35, 250.7] | Font: Times New Roman | Size: 9.84 | Color: 0
+Text: '基板型号' | Bbox: [361.01, 189.21, 400.37, 199.05] | Font: ËÎÌå | Size: 9.84 | Color: 0
+Text: 'PRODUCED BY' | Bbox: [346.01, 201.61, 415.24, 212.51] | Font: Times New Roman | Size: 9.84 | Color: 0
+Text: '产品名称' | Bbox: [361.01, 151.29, 400.37, 161.13] | Font: ËÎÌå | Size: 9.84 | Color: 0
+Text: 'PRODUCT' | Bbox: [357.65, 163.69, 403.59, 174.59] | Font: Times New Roman | Size: 9.84 | Color: 0
+Text: '*1200*C' | Bbox: [237.38, 231.17, 285.78, 245.78] | Font: Times New Roman | Size: 13.2 | Color: 0
+Text: '0.50' | Bbox: [210.14, 231.17, 233.29, 245.78] | Font: Times New Roman | Size: 13.2 | Color: 0

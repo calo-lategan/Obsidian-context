@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npm install *)",
+      "Bash(clasp --version)",
+      "PowerShell(if \\(Test-Path \"$env:USERPROFILE\\\\.clasprc.json\"\\) { \"logged in\" } else { \"needs login\" })",
+      "Bash(clasp push *)",
+      "Bash(clasp deploy *)",
+      "Bash(node -e ' *)",
+      "mcp__95a5721e-b416-432c-9fe0-ca7958399001__search_files"
+    ]
+  }
+}

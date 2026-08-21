@@ -1,0 +1,9 @@
+{
+  "hooks": [
+    {
+      "event": "UserPromptSubmit",
+      "command": "node .claude/check-hive-trigger.js",
+      "timeout": 5000
+    }
+  ]
+}
